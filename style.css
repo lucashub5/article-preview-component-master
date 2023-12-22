@@ -138,6 +138,22 @@ body {
     filter: brightness(0) invert(1);
 }
 
+.share-img:active {
+    background: hsl(214, 17%, 51%);
+}
+
+.share-img img:active {
+    filter: brightness(0) invert(1);
+}
+
+.share-img-active:active {
+    background: hsl(210, 46%, 95%);
+}
+
+.share-img-active2 img:active {
+    filter: brightness(1) invert(0);
+}
+
 .share-imgs {
     display: flex;
     align-items: center;
